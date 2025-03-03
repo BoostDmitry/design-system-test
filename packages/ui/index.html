@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@boostai/design-system</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        padding-top: 56px;
+      }
+
+      header {
+        align-items: center;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        height: 56px;
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+        padding: 0 12px;
+      }
+
+      .items {
+        align-items: center;
+        display: flex;
+        gap: 12px;
+      }
+
+      .text-placeholder {
+        background-color: #f1f1f1;
+        border-radius: 4px;
+        height: 24px;
+        width: 80px;
+      }
+
+      .placeholder {
+        background-color: #f1f1f1;
+        border-radius: 4px;
+        height: 24px;
+        width: 24px;
+      }
+
+      .logo {
+        height: 33px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <header>
+      <div class="items">
+        <div class="placeholder"></div>
+        <div class="text-placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+<path d="M78.2707 28.1142H68.2632C64.7749 15.2262 51.9261 5.66016 36.6011 5.66016C18.5953 5.66016 4 18.8653 4 35.1533C4 41.5534 6.26227 47.4754 10.0911 52.3096L4.35515 70.427L20.7408 60.9195C23.8691 62.5 27.3184 63.6269 30.977 64.2025L37.0681 74.4905H66.5069L68.8713 90.3394L92 51.2998L78.2658 28.1093L78.2707 28.1142ZM23.4458 55.5439L20.5462 54.0804L17.7342 55.7097L14.7762 57.4268L15.8173 54.1341L16.7855 51.0755L14.7957 48.5632C11.6625 44.6071 10.0035 39.968 10.0035 35.1533C10.0035 22.2117 21.9328 11.6798 36.6011 11.6798C48.4865 11.6798 58.5767 18.597 61.9726 28.1142H37.0681L23.3339 51.3047L26.6617 56.9195C25.5573 56.5244 24.4821 56.0658 23.441 55.5439H23.4458ZM36.6059 58.6268C35.9443 58.6268 35.2826 58.6024 34.621 58.5585L30.3251 51.3047L40.4931 34.1386H63.1743C63.1889 34.4752 63.2034 34.8167 63.2034 35.1533C63.2034 48.0949 51.2742 58.6268 36.6059 58.6268ZM71.6882 68.4709H40.4931L38.2065 64.6123C55.4679 63.8562 69.207 50.9584 69.207 35.1533C69.207 34.8118 69.1924 34.4752 69.1778 34.1386H74.8505L85.0186 51.3047L72.3206 72.7343L71.6833 68.4709H71.6882Z" fill="#552A55"/>
+</svg>
+      <div class="items">
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="text-placeholder"></div>
+        <div class="placeholder"></div>
+      </div>
+    </header>
+    <div id="design-system"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

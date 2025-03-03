@@ -1,0 +1,19 @@
+{
+  "name": "@boostai/demo-app",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@boostai/ui": "workspace:*"
+  },
+  "scripts": {
+    "start": "vite",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "typecheck": "tsc --noEmit",
+    "typecheck:watch": "tsc --watch --noEmit",
+    "lint:quiet": "eslint --quiet",
+    "prettier:check": "prettier --check **/*.{js,ts,tsx,json,css,scss}",
+    "prettier:fix": "prettier --write **/*.{js,ts,tsx,json,css,scss}"
+  },
+  "main": "src/exports.ts"
+}
